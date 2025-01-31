@@ -8,6 +8,5 @@ public class IncomeTaxCalculatorApplication {
     
     public static void main(String[] args) {
         SpringApplication.run(IncomeTaxCalculatorApplication.class);
-    
     }
 }

@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "regime": "old",
+      "ageBracket": "1-60",
+      "slabs": [
+         {
+           "range": "0-250000",
+           "percent": "0",
+           "aboveAmount": 0,
+           "sucharge": 0
+         },
+         {
+           "range": "250001-500000",
+           "percent": "5",
+           "aboveAmount": 0,
+           "surcharge": 0
+         },
+         {
+           "range": "500001-1000000",
+           "percent": "12500+20",
+           "aboveAmount": 500000,
+           "surcharge": 0
+         },
+         {
+           "range": "1000001-5000000",
+           "percent": "112500+30",
+           "aboveAmount": 1000000,
+           "surcharge": 0
+         },
+         {
+           "range": "5000001-10000000",
+           "percent": "112500+30",
+           "aboveAmount": 1000000,
+           "surcharge": 10
+         },
+         {
+           "range": "10000001-20000000",
+           "percent": "112500+30",
+           "aboveAmount": 1000000,
+           "surcharge": 15
+         },
+         {
+           "range": "20000001-50000000",
+           "percent": "112500+30",
+           "aboveAmount": 1000000,
+           "surcharge": 25
+         },
+         {
+           "range": "50000000-",
+           "percent": "112500+30",
+           "aboveAmount": 1000000,
+           "surcharge": 37
+         }  
+      ]  
+    },
+    {
+      "regime": "new",
+      "ageBracket": "1-60",
+      "slabs": [
+         {
+           "range": "0-300000",
+           "percent": "0",
+           "aboveAmount": 0,
+           "sucharge": 0
+         },
+         {
+           "range": "300001-700000",
+           "percent": "5",
+           "aboveAmount": 300000,
+           "surcharge": 0
+         },
+         {
+           "range": "700001-1000000",
+           "percent": "20000+10",
+           "aboveAmount": 700000,
+           "surcharge": 0
+         },
+         {
+           "range": "1000001-1200000",
+           "percent": "50000+15",
+           "aboveAmount": 1000000,
+           "surcharge": 0
+         },
+         {
+           "range": "1200001-1500000",
+           "percent": "80000+20",
+           "aboveAmount": 1200000,
+           "surcharge": 0
+         },
+         {
+           "range": "1500001-5000000",
+           "percent": "140000+30",
+           "aboveAmount": 1500000,
+           "surcharge": 0
+         },
+         {
+           "range": "5000001-10000000",
+           "percent": "140000+30",
+           "aboveAmount": 1500000,
+           "surcharge": 10
+         },
+         {
+           "range": "10000001-20000000",
+           "percent": "140000+30",
+           "aboveAmount": 1500000,
+           "surcharge": 15
+         },
+         {
+           "range": "20000001-",
+           "percent": "140000+30",
+           "aboveAmount": 1500000,
+           "surcharge": 25
+         }
+      ]  
+    }
+  ]
+}
